@@ -4,13 +4,23 @@ body {
     flex-wrap: wrap;
   }
   body > * {
-    background: #212122;
+    background: #100e17;
     padding: 2rem;
     text-align: center;
     border: 5px solid white;
-    color:white;
+    color:#ff590e;
   }
   
+  header {
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    background: #100e17;
+    border-bottom: 1px solid #201c29;
+    /* -webkit-animation: none; */
+    animation: none;
+}
+
   .header,
   .footer {
     flex: 1 100%;
