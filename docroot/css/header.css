@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Livvic:400,600&display=swap');
+
+
+:root{
+    /* theme colors */
+    --text-gray: #c4d6e9;
+    --bg-color: #100e17;
+
+    /*  theme font-family */
+    --lexend: 'Lexend Deca', sans-serif;
+    --livvic: 'Livvic', sans-serif;
+
+    /* gradient colors */
+    --sky :  linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); /* 010 Winter Neva */
+}
+
+.main-header {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 2rem;
+    background: var(--bg-color);
+    position: relative;
+    justify-content: space-between;
+    height: 5rem;
+    min-height: 10vh;
+    overflow-y: hidden;
+    transition: height 1s cubic-bezier(0.26, -0.01, 0,  1.01);
+   
+}
+  
+
+
+nav .social {
+    color: #ff3d00;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .social i:hover{
+    background-color: #3cd837;
+    text-decoration: none;
+}
+
+.navbar-brand img{
+    max-height: 4rem;
+}
+
+.search-form{
+    display: flex;
+    height: 40px;
+    padding: 2px;
+    background: #1e232b;
+    min-width: 18% !important;
+    border-radius: 2px;
+    border:  1px solid rgba(155, 155, 155, 0.2);
+    }
+
+.search-form button{
+    padding: 0 15px;
+    color: #fff;
+    font-size: 17px;
+    background: #ff3d00;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+.search-form 
+button:hover{
+    background-color: #3cd837
+
+}
+
+
+.search-data{
+    width: 100%;
+    height: 100%;
+    padding: 0  10px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    font-weight: 500;
+    background: none;
+}
+
