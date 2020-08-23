@@ -1,24 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Livvic:400,600&display=swap');
+/* @import "bourbon"; */
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400';
 
-
-:root{
-    /* theme colors */
-    --text-gray: #c4d6e9;
-    --bg-color: #100e17;
-
-    /*  theme font-family */
-    --lexend: 'Lexend Deca', sans-serif;
-    --livvic: 'Livvic', sans-serif;
-
-    /* gradient colors */
-    --sky :  linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); /* 010 Winter Neva */
-}
-
-/* ------------------ navbar ----------------- */
 body {
+   font-family: "Raleway";
+  height: 100%;
     display: flex;
     flex-wrap: wrap;
     color:#d3cecc;
+    background: #100e17;
   }
 
     .main-header, .footer {
@@ -32,11 +21,14 @@ body {
   }
   
 footer {
+  color: aliceblue;
     position:fixed;
     left:0rem;
     bottom:0rem;
-    height:30rem;
+    height:3rem;
     width:100%;
+    background: #100e17;
+    text-align: center;
    
  }
 

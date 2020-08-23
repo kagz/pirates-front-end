@@ -33,20 +33,28 @@
   
 
 
-nav .social {
+.main-header-nav-right {
     color: #ff3d00;
     font-size: 30px;
     display: flex;
     justify-content: space-between;
 }
 
-nav .social i:hover{
-    background-color: #3cd837;
-    text-decoration: none;
+
+.main-header-nav-right i:not(:last-of-type) {
+    margin-right: 1rem;
+}
+
+.fa-cog:hover {
+    color: #3cd837;
+}
+
+.fa-unlock:hover {
+    color: #3cd837;
 }
 
 .navbar-brand img{
-    max-height: 4rem;
+    max-height: 5rem;
 }
 
 .search-form{
