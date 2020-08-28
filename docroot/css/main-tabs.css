@@ -3,7 +3,7 @@
 	 left: 50%;
 	 transform: translateX(-50%);
 	 position: relative;
-	 background: #100e17;
+	 background: #242525;
 	 padding: 50px;
 	 padding-bottom: 80px;
 	 width: 100%;
@@ -53,8 +53,7 @@
 
 svg{
     width: 10% !important;
- 
-  border: none;
+    border: none;
 }
 
 
@@ -93,7 +92,7 @@ svg{
 	 margin-top: 30px;
 }
  .tabs .content section {
-	 /* height: 100%; */
+	 height: 100%;
 	 display: none;
 	 animation-name: content;
 	 animation-direction: normal;
@@ -227,5 +226,9 @@ svg{
 	 .tabs .content section h2 {
 		 display: block;
 	}
+
+	.tabs  svg {
+		height: 1.5em;
+   }
 }
  

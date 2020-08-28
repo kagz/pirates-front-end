@@ -1,0 +1,33 @@
+/* Column container */
+.side-pane {
+    display: flex;
+    flex-wrap: wrap;
+    background: #100e17;
+    background-color: #f1f1f1;
+max-height: 100%;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+
+flex: 20%;
+
+
+padding: 20px;
+
+}
+  
+  /* Main column */
+  .main {
+    flex: 70%;
+   
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }

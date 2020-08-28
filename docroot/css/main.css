@@ -1,25 +1,72 @@
 /* @import "bourbon"; */
 @import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400';
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
+  padding-top: 6px;
    font-family: "Raleway";
   height: 100%;
     display: flex;
     flex-wrap: wrap;
     color:#d3cecc;
-    background: #100e17;
+    background: #393b3d;
   }
 
     .main-header, .footer {
       flex: 1 100%;
     }
-  .sidebar {
-    flex: 1;
-  }
-  .main {
-    flex: 2;
-  }
   
+.right-aside{
+
+height: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.left-aside{
+
+height: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.right-aside,
+.left-aside{
+  flex: initial;
+  width: 25%;
+  background-color: #242525;
+  border: 1px solid transparent;
+  padding: 0 8px 8px;
+  border-radius: 4px;
+  margin: 0 12px 12px;
+ 
+ 
+}
+.main-content{
+  border: 1px solid transparent;
+  padding: 0 8px 8px;
+  border-radius: 4px;
+  margin: 0 12px 12px;
+  background-color:  #242525;
+  width: 50%;
+ 
+}
+
+ .main-body{
+   padding: 20px;
+   margin: 9px;
+   width: 100%;
+   color: aliceblue;
+   display: flex;
+   justify-content: space-between;
+   
+ }   
 footer {
   color: aliceblue;
     position:fixed;
@@ -27,7 +74,7 @@ footer {
     bottom:0rem;
     height:3rem;
     width:100%;
-    background: #100e17;
+    background: #393b3d;
     text-align: center;
    
  }
