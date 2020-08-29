@@ -34,3 +34,71 @@
   line-height:30px;
 }
 
+
+.fa {
+  position: relative;
+  display: table-cell;
+  width: 60px;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size:20px;
+  color: #ff3d00;
+  }
+  .fa:hover{
+    color: #3cd837;
+  }
+  
+  .fa-2x {
+    font-size: 2em;
+    }
+
+.major-leagues ,.search-county, .county-list{
+  color:#f7f3eb;
+  margin-top: 10px;
+  background:#332f2e; 
+  border-radius:5px; 
+  width: 100%;
+  overflow:hidden; 
+  display:flex; 
+  flex-direction: column;
+  margin-bottom:9px; 
+  box-shadow:0 0 10px #201d1c; 
+   padding: 10px;
+}
+.major-leagues-nav{
+
+position:relative;
+display:block;
+width:250px;
+}
+
+.major-leagues-nav,  .nav-text {
+  position:relative;
+  display:table-cell;
+  text-decoration: none;
+  vertical-align:middle;
+  
+  font-family: 'Titillium Web', sans-serif;
+  }
+  
+.major-leagues-nav , li>a {
+    border-collapse:collapse;
+    border-spacing:0;
+    color:#f7f3eb;
+     font-family: arial;
+    font-size: 14px;
+    text-decoration:none;
+    -webkit-transform:translateZ(0) scale(1,1);
+    -webkit-transition:all .1s linear;
+    transition:all .1s linear;
+      
+}
+
+.major-leagues-nav , li>a:hover {
+ color: #3cd837;
+    
+}
+.left-aside h4{
+margin: 8px;
+    }

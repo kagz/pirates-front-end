@@ -34,11 +34,9 @@
 
 
 .main-header-nav-right {
-   
-    font-size: 30px;
-    display: flex;
-    justify-content: space-between;
-
+   font-size: 30px;
+   display: flex;
+   justify-content: space-between;
 }
 
 .main-header-nav-right ul {
@@ -52,10 +50,7 @@ ul {
     margin-left: .6em;
 }
 
-nav i{
-     color: #ff3d00;
 
-}
 /* nav i:hover {
     background-color: #3cd837;
       
@@ -72,14 +67,6 @@ nav li {
 
 .main-header-nav-right i:not(:last-of-type) {
     margin-right: 1rem;
-}
-
-.fa-gear:hover {
-    color: #3cd837;
-}
-
-.fa-unlock:hover {
-    color: #3cd837;
 }
 
 .navbar-brand img{

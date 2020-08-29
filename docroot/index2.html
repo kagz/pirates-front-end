@@ -10,8 +10,12 @@
 
     <link rel="stylesheet" href="css/main-tabs.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.css" />
+    <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.css" /> -->
     <link rel="stylesheet" href="css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <script src="js/jquery.js" defer></script>
     <script src="js/bootstrap.js" defer></script>
@@ -29,12 +33,12 @@
         <ul>
           <li>
             <a href="#">
-              <i class="fa fa-gear"></i>
+              <i class="fa fa-gear fa-2x"></i>
             </a>
           </li>
           <li>
             <a href="#">
-              <i class="fa fa-unlock"></i>
+              <i class="fa fa-unlock fa-2x"></i>
             </a>
           </li>
         </ul>
@@ -85,20 +89,53 @@
           <span>29</span>
           <span>30</span>
         </div>
+
         <div class="major-leagues">
-          <h3>Top Leagues</h3>
-        </div>
-        <div class="search-county">
-          <h3>search county</h3>
+          <h4>Top Leagues</h4>
+
+          <ul class="major-leagues-nav">
+            <li class="has-subnav">
+              <a href="#">
+                <i class="fa fa-list fa-2x"></i>
+                <span class="nav-text"> Kenya Premier League</span>
+              </a>
+            </li>
+            <li class="has-subnav">
+              <a href="#">
+                <i class="fa fa-folder-open fa-2x"></i>
+                <span class="nav-text"> National Super League</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-bar-chart-o fa-2x"></i>
+                <span class="nav-text"> National Schools League</span>
+              </a>
+            </li>
+          </ul>
         </div>
 
-        <div class="county-games">
-          <h3>county games</h3>
+        <div class="search-county">
+          <h4>Search County</h4>
+          <div>
+            <form class="search-form" action="#">
+              <input
+                type="text"
+                class="search-data"
+                placeholder="Search for County"
+                required
+              />
+              <button class="fa fa-search"></button>
+            </form>
+          </div>
+        </div>
+
+        <div class="county-list">
+          <h4>County Games</h4>
         </div>
       </aside>
 
       <section class="main-content">
-
         <div>
           <div class="tabs">
             <input type="radio" id="tab1" name="tab-control" checked />

@@ -44,9 +44,10 @@ flex-direction: column;
   width: 25%;
   background-color: #242525;
   border: 1px solid transparent;
-  padding: 8px 8px 8px;
+  padding: 8px 8px 8px 8px;
   border-radius: 4px;
-  margin: 0 12px 12px;
+  margin: 12px 12px 12px 12px;
+  height: 100%;
  
  
 }
