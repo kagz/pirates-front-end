@@ -23,17 +23,19 @@ body {
   
 .right-aside{
 
-height: 100%;
-display: flex;
-justify-content: space-between;
-align-items: center;
+  height: 100%;
+  display: flex;
+  
+  align-items: center; 
+  flex-direction: column;
 }
 .left-aside{
 
 height: 100%;
 display: flex;
-justify-content: space-between;
-align-items: center;
+
+align-items: center; 
+flex-direction: column;
 }
 
 .right-aside,
@@ -42,7 +44,7 @@ align-items: center;
   width: 25%;
   background-color: #242525;
   border: 1px solid transparent;
-  padding: 0 8px 8px;
+  padding: 8px 8px 8px;
   border-radius: 4px;
   margin: 0 12px 12px;
  
@@ -50,7 +52,7 @@ align-items: center;
 }
 .main-content{
   border: 1px solid transparent;
-  padding: 0 8px 8px;
+  padding: 8px 8px 8px;
   border-radius: 4px;
   margin: 0 12px 12px;
   background-color:  #242525;
@@ -62,10 +64,9 @@ align-items: center;
    padding: 20px;
    margin: 9px;
    width: 100%;
-   color: aliceblue;
+   /* color: aliceblue; */
    display: flex;
    justify-content: space-between;
-   
  }   
 footer {
   color: aliceblue;

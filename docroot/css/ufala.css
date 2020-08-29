@@ -1,33 +1,36 @@
-/* Column container */
-.side-pane {
-    display: flex;
-    flex-wrap: wrap;
-    background: #100e17;
-    background-color: #f1f1f1;
-max-height: 100%;
-  }
+
+
+.calendar {
+ 
+  background:#332f2e; 
+  border-radius:5px; 
+  overflow:hidden; 
+  display:block; 
+  margin-bottom:10px; 
+  box-shadow:0 0 10px #201d1c; 
+  margin:0 auto; 
   
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
-  .side {
-
-flex: 20%;
-
-
-padding: 20px;
-
 }
-  
-  /* Main column */
-  .main {
-    flex: 70%;
-   
-    padding: 20px;
-  }
-  
-  /* Fake image, just for this example */
-  .fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-  }
+
+.month-year {
+  font-weight:700; 
+  color:#f7f3eb; 
+  display:block; 
+  margin:18px 0 0 0; 
+  text-transform:uppercase; 
+  text-align:center; 
+  letter-spacing:1px;
+}
+
+.calendar span {
+  font-weight:400;
+  color:#f7f3eb;
+  text-align:center;
+  width:42px;
+  height:42px;
+  display:inline-block;
+  float:left;
+  overflow:hidden;
+  line-height:30px;
+}
+
